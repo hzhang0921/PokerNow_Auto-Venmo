@@ -3,17 +3,17 @@
 
 To use this app, make an IDs.py file with your access_token, my_user_id, and ID_dict 
 For your access_token:
-'''
+```
 from venmo_api import Client
 access_token = Client.get_access_token(username='USERNAME_HERE', password='PASSWORD_HERE')
-'''
+```
 this will spit out information in your console. After 2FA, record the access-token in a string variable.
 
 For my_user_id
-'''
+```
 my_stuff = client.user.get_my_profile() #To get my stuff
 print(my_stuff)
-'''
+```
 Should pring out your user ID. Record this under the string variable my_user_id.
 Finally, create a ID_dict with the format of {'FULL_NAME_IN_CAPITALS':'VENMO_USERNAME'}. Create as many entries as you want for your friends.
 
