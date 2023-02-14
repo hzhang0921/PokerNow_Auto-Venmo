@@ -1,3 +1,5 @@
 
 IDs.py
 *.csv
+*.pyc
+.DS_Store
