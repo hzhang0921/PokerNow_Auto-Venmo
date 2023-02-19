@@ -7,7 +7,7 @@ import pprint
 #The Keys are the Usernames used by individuals, the values are money gained or lost
 
 def Data(file_name):
-    os.chdir("/Users/haoyang/Documents/Coding/Python/PokerNow_Auto-Venmo")
+    os.chdir("/Users/haoyang/Documents/VScode/Python/PokerNow_Auto-Venmo")
     # cwd = os.getcwd()  # Get the current working directory (cwd)
     # files = os.listdir(cwd)  # Get all the files in that directory
     # df = pd.read_csv("Sample_Ledger.csv").to_string().split()
